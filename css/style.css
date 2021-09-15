@@ -247,15 +247,29 @@ figure{
     background-color: #fff;
     box-shadow: 5px 5px 5px #ddd;
 }
+@media(max-width: 991px){
+    .about-content{
+        padding: 0;
+    }
+    .about-text{
+        line-height: 0;
+        padding: 0;
+    }
+}
+.about-header{
+    font-weight: 700;
+    font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)))
+}
 .about-text{
     line-height: 2;
-    padding: 20px 0;
+    padding-bottom: 40px;
+    font-size: 12
 }
 .about-fig{
-    max-height: 288px;
+    max-height: 284px;
 }
 .about-img{
-    height: 235px;
+    max-height: 230px;
 }
 .figurecaption-header{
     margin-top: 16px;
