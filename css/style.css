@@ -62,7 +62,7 @@ ul{
     text-transform: uppercase;
     font-family: var(--Worksans);
     font-weight: 700;
-    font-size: calc(6px + (8px - 6) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(8px + (12 - 8) * ((100vw - 300px) / (1600 - 300)));
 }
 .top-nav-item a{
     color: var(--secondary);
