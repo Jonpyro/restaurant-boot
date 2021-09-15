@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Work+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Yesteryear&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <section class="socials">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="soc-list nav justify-content-center justify-content-md-end">
+                            <li class="soc-item nav-item"><a href="#link" class="soc-link nav-link">instagram</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="soc-link nav-link">twitter</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="soc-link nav-link">facebook</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="soc-link nav-link">pintrest</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="soc-link nav-link">linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- im having so much fun-->
+        <section class="top-nav-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1 class="logo text-sm-center text-md-left">Restaurant</h1>
+                    </div>
+                    <div class="col-md-7">
+                        <!--display none on small; display on medium-->
+                        <nav class="top-nav d-none d-md-inline text-md-right">
+                            <ul class="top-nav-list nav justify-content-md-between">
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">About</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">Events</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">Menu</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">Gallery</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">Contacts</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">Blog</a></li>
+                            </ul>
+                        </nav>
+                        <!-- Display on small; display none on medium-->
+                        <div class="dropdown-div d-sm-block d-md-none">
+                            <select name="top-nav" id="top-nav" class="nav-drop">
+                                <option value="">Choose option</option>
+                                <option value="about">About</option>
+                                <option value="events">Events</option>
+                                <option value="menu">Menu</option>
+                                <option value="gallery">Gallery</option>
+                                <option value="contacts">Contacts</option>
+                                <option value="blog">Blog</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slogan-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="slogan">
+                            <p class="slogan-text text-sm-center text-md-left">Top quality ingredients only in our kitchen!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="#link">
+                            <input type="search" value="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main" id="main">
+        <section class="carousel-section">
+            <div class="background-div">
+                <img src="media/spudoftheday.jpg" alt="" class="img-fluid hero-bg w-100">
+            </div>
+            <div class="container">
+                <!-- put carousel here-->
+                <div id="carouselExampleSlidesOnly" class="carousel slide my-carousel" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <h2 class="hero-header d-none d-md-block">Spud<span class="hero-span">Of the day!</span></h2>
+                        <div class="carousel-item active">
+                            <img src="media/spudoftheday.jpg" class="d-block w-100" alt="..." class="d-block img-fluid w-100">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="media/spud2.jpg" class="d-block w-100" alt="..." class="d-block img-fluid w-100">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="media/spud3.jpg" class="d-block w-100" alt="..." class="d-block img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="promo-div">
+                        <h2 class="promo-header d-none d-md-block">What is inside?</h2>
+                        <p class="promo-text d-none d-md-block">This is the best Irish spuds in the world!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="figure-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="media/image1.jpg" alt="placeholder image" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figurecaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="media/image2.jpeg" alt="placeholder image" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figurecaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="media/image1.jpg" alt="placeholder image" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figurecaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="media/image2.jpeg" alt="placeholder image" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figurecaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="media/image1.jpg" alt="placeholder image" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figurecaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="media/image2.jpeg" alt="placeholder image" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figurecaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!-- make 6 cards -->
+        </section>
+        <section class="offers-section">
+            <div class="container">
+                <div class="row">
+                    <h2 class="sub-header text-sm-justify">Reservations and orders may be placed anytime.</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="offer-div d-flex flex-sm-column flex-md-row">
+                            <div class="image-div">
+                                <img src="https://via.placeholder.com/40x40" alt="placeholder image">
+                            </div>
+                            <div class="offer-text-div">
+                                <h2 class="offer-header">
+                                    <span class="small-text">offer one</span>Lorem, ipsum dolor.
+                                </h2>
+                                <p class="offer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus et impedit sed, reiciendis a itaque dolorem maxime cupiditate quia. Sint, eaque! Dolore reprehenderit facere repellat possimus minima similique cupiditate, sint maxime odio, laboriosam pariatur quo aperiam quia alias voluptatibus.</p>
+                                <a href="#link" class="offer-link">&#187; Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="offer-div d-flex flex-sm-column flex-md-row">
+                            <div class="image-div">
+                                <img src="https://via.placeholder.com/40x40" alt="placeholder image">
+                            </div>
+                            <div class="offer-text-div">
+                                <h2 class="offer-header">
+                                    <span class="small-text">offer two</span>Lorem, ipsum dolor.
+                                </h2>
+                                <p class="offer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus et impedit sed, reiciendis a itaque dolorem maxime cupiditate quia. Sint, eaque! Dolore reprehenderit facere repellat possimus minima similique cupiditate, sint maxime odio, laboriosam pariatur quo aperiam quia alias voluptatibus.</p>
+                                <a href="#link" class="offer-link">&#187; Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="offer-div d-flex flex-md-row">
+                            <div class="image-div">
+                                <img src="https://via.placeholder.com/40x40" alt="placeholder image">
+                            </div>
+                            <div class="offer-text-div">
+                                <h2 class="offer-header">
+                                    <span class="small-text">offer three</span>Lorem, ipsum dolor.
+                                </h2>
+                                <p class="offer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatibus et impedit sed, reiciendis a itaque dolorem maxime cupiditate quia. Sint, eaque! Dolore reprehenderit facere repellat possimus minima similique cupiditate, sint maxime odio, laboriosam pariatur quo aperiam quia alias voluptatibus.</p>
+                                <a href="#link" class="offer-link">&#187; Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <section class=Clients-section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="client-list nav nav-fill">
+                            <li class="client-item nav-item">client logo</li>
+                            <li class="client-item nav-item">client logo</li>
+                            <li class="client-item nav-item d-none d-md-inline">client logo</li>
+                            <li class="client-item nav-item d-none d-md-inline">client logo</li>
+                            <li class="client-item nav-item d-none d-md-inline">client logo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-info">
+                            <h2 class="footer-about-header">About us</h2>
+                            <p class="footer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ullam tempora dolore reiciendis repellat placeat corrupti veniam velit ipsa quidem?.</p>
+                            <p class="footer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <a href="#link" class="read-more">&#187; Read more</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-info">
+                            <h2 class="footer-blog-header">Our blog</h2>
+                            <ul class="blog-list">
+                                <li class="footer-blog-item">
+                                    <h3 class="blog-sub-header">Lorem ipsum dolor sit.</h3>
+                                    <p class="footer-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, molestiae.</p>
+                                </li>
+                                <li class="footer-blog-item">
+                                    <h3 class="blog-sub-header">Lorem ipsum dolor sit.</h3>
+                                    <p class="footer-blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, molestiae.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-info">
+                            <h2 class="flicker-header">Our flicker</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-info">
+                            <h2 class="footer-contact-header">get in touch</h2>
+                            <ul class="contact-list">
+                                <li class="contact-list-item">123 sesame street</li>
+                                <li class="contact-list-item">jackson, ms 39201</li>
+                                <li class="contact-list-item">phone: <a href="tel:6012014262">601 201 4262</a>
+                                <li class="contact-list-item">Moble <a href="#link">601 867 5309</a></li>
+                                <li class="contact-list-item">Fax: <a href="#link">601 222 2222</a></li>
+                                <li class="contact-list-item">Email:<a href="mailto:jonathan@mscodingacademies.org"> myemail@email.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="colophon-section">
+            <div class="colophon container">
+                <h1 class="footer-logo text-sm-center text-md-left">restaurant</h1>
+                <p class="colophon-text text-sm-center text-md-left">site by pyrojon &copy;2021</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
