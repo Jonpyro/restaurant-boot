@@ -428,3 +428,43 @@ figure{
     color: var(--secondary);
 
 }
+
+.cart{
+    background: var(--topNav);
+    color: var(--secondary);
+}
+
+/* checkout */
+
+.bar{
+    padding-top: 15px;
+    background: var(--topNav);
+    color: var(--secondary);
+}
+
+.checkout-section{
+    margin: 15px 0;
+}
+
+.confirm-button, .add-button{
+    background: var(--topNav);
+    color: var(--secondary);
+    border: 1px solid var(--primary)
+}
+.add-button{
+    width: 150px;
+}
+.total-value{
+    color: var(--primary);
+}
+.spuds{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+}
+.products1, .products2{
+    margin: 5px 0;
+    padding: 5px 0;
+}
